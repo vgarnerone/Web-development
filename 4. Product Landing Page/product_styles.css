@@ -1,0 +1,178 @@
+
+*{
+    /*border:solid black 1px;*/
+    font-family:  Helvetica, sans-serif;
+    color:rgba(50,50,50,1);
+  }
+  
+  /*Header*/
+  
+  #header{
+    border:solid black 1px;
+    background-color: rgba(240,240,240,1);
+    width:100%; 
+    height:17%; 
+    font-family: sans-serif;
+    display: flex;
+    flex-direction:row;
+    position:fixed;
+    top:0;
+    align-items:baseline;
+    z-index:10;
+  }
+  
+  #header-img{
+    width:auto;
+    height:0px;
+  }
+  #icon{
+  order:0;
+  font-size:2rem;
+  }
+  
+  #nav-bar{
+  order:5;
+  background-color: rgba(240,240,240,1);;
+  display: flex;
+  flex-direction:row;
+  justify-content:flex-end;
+  flex-grow:2;
+  font-size:1.1rem;
+  z-index:10;
+  }
+  
+  #nav-bar a {
+    margin:0 5% 0 5%;
+    text-decoration: none;
+  }
+  
+  
+  
+  h1{
+    order:1;
+    margin-left:1%;
+  }
+  
+  /*Body*/
+  
+  body{
+    background-color: rgba(240,240,240,1);;
+    padding-top:10%;
+  }
+  
+  h2{
+    display:flex;
+    justify-content:center;
+    margin-top:10%;
+    margin-right: auto;
+    margin-bottom:10%;
+    margin-left: auto;
+  
+  }
+  
+  #div-image-intro{
+    position:relative;
+  }
+  
+  #img-intro{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:auto;
+  }
+  #quote{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 50px;
+    background:rgba(220,220,220,0.4);
+  }
+  
+  #Contact{
+    display:flex;
+    flex-direction:column;
+    justify-content:flex-between;
+  }
+  
+  #Contact p {
+    font-size:1.5rem;
+    margin:auto;
+  }
+  
+  section{
+    margin-top:10%;
+  }
+  
+  /*La pepiniere*/
+  #video{
+    display:flex;
+    justify-content:center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /*Arbres*/
+  #Les_arbres{
+    display:flex;
+    flex-wrap:wrap;
+  }
+  
+  
+  .tree{
+    order:1;
+    margin:auto;
+    margin-top:5%;
+    width:100%;
+    height:100%;
+    max-width:250px;
+    display:flex;
+    flex-direction:row;
+  }
+  .description{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    width:50%;
+    height:100%;
+  }
+  .description p{
+    display:flex;
+    justify-content:center;
+  }
+  
+  .tree-img{
+    width:150px;
+    height:150px;
+  }
+  /*Form*/
+  select, label, input {
+    font-family: Arial;
+    font-size: 1rem;
+    display: block;
+    border-radius: 2%px;
+    margin-bottom: 10%px;
+  }
+  
+  /*Contact*/
+  #Contact{
+    margin-bottom:10%;
+  }
+  
+  footer p {
+    display:flex;
+    justify-content:right;
+  }
+  
+  
+  @media (max-width:600px){
+    #nav-bar{
+    font-size:1rem;
+    }
+  }
+  @media (max-width:400px){
+    #nav-bar{
+    width:0;
+    }
+  }
+  
