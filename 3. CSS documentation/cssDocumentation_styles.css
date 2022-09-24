@@ -1,0 +1,66 @@
+
+
+#navbar{
+  position:fixed;
+  left:0%;
+  overflow:auto;
+  width:250px;
+  height:100%;
+  background-color:rgba(220,220,220,1);
+  font-size:1.5rem;
+}
+
+main{
+  position:absolute;
+  right:20%;
+  width:50%;
+  height:100%;
+ 
+}
+
+header{
+  font-weight:bold;
+  font-size:2.5rem;
+  background: rgba(220,220,220,1);
+}
+
+nav header{
+  font-size:2rem;
+}
+
+a {
+  color: black;
+}
+@media (max-width:642px){
+  #navbar{
+   display:none;
+  }
+  main{
+    width:100%
+  }
+}
+
+ul{
+  list-style-type: none;
+}
+li{
+  margin:1rem;
+  font-weight:bold;
+}
+code{
+  font-weight:normal;
+  display:block;
+  text-align:center;
+}
+
+p, code, li{
+  font-size:1.2rem;
+}
+
+.right{
+  display:block;
+  text-align:right;
+}
+
+** end of undefined **
+

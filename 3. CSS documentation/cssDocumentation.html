@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initiale-scale=1.0"/>
+  <link href="./cssDocumentation_styles.css" rel="stylesheet">
+  <head>
+    <title>CSS Documentation</title>
+  </head>
+  <body>
+    
+    <nav id="navbar">
+      <header>CSS Documentation</header>
+      <ul>
+        <li>
+          <a class="nav-link" href="#CSS_basics">CSS basics</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Selector">Selector</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Box_Properties">Box Properties</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Media_Queries">Media Queries</a>
+        </li>
+        <li>
+          <a class="nav-link" href="#Functions">Functions</a>
+        </li>
+                
+      </ul>
+    </nav>
+    <main id="main-doc">
+      <section class="main-section" id="CSS_basics">
+        
+        <header>CSS basics</header>
+        <p>We use Cascading Style Sheet (CSS) to style html web pages. We add the following line of code to the .html to link it with the .css file.</p>
+        <code>
+          &lt;link href="./styles.css" rel="stylesheet"&gt;
+          </code>
+        <ul>
+          <li></li>
+          <li></li>
+        </ul>
+        <p></p>
+      </section>
+      <section class="main-section" id="Selector">
+        <header>Selector</header>
+        <p>A selector allows to target the html elements we want to style. There are different kind:</p>
+        <ul>
+          <li >Universal
+            <code class="right">
+            *{property:value;}
+            </code>
+          </li>
+          <li>Type
+            <code class="right">
+            p {CSS declarations;}
+            </code>
+          </li>
+          <li>Id
+            <code class="right">
+            #id {css declarations; }
+            </code>
+          </li>
+          <li>Class
+            <code class="right">
+            .class {css declarations;}
+            </code>
+          </li>
+          <li>Attribute
+            <code class="right">
+            a[attribute=value] {
+property: value;
+}
+            </code>
+          </li>
+          <li>Combinators
+            <code class="right">
+            selector1 selector2 / selector 1+selector2 / selector1>selector2 {property: value;}
+            </code>
+          </li>
+          <li>Pseudo
+            <code class="right">
+            selector: pseudo-class{
+property: value;
+}
+            </code>
+        </ul>
+        <p></p>
+      </section>
+      <section class="main-section" id="Box_Properties">
+        <header>Box Properties</header>
+        <p>The CSS box model is a that a rectangular box wraps around each HTML element. These boxes have a border, a padding, a margin and a content. Here are the properties of the box model.</p>
+
+        <img 
+        src="https://upload.wikimedia.org/wikipedia/commons/7/7a/Boxmodell-detail.png"
+        alt="CSS box model drawing"
+        loading="lazy"
+        />
+        
+        <ul>
+          <li>
+            Margin
+            <code>margin: value;</code>
+          </li>
+          <li>
+            Padding
+            <code>padding: value;</code>
+          </li>
+          <li>
+            Border
+            <code>border: value;</code>
+          </li>
+          <li>
+            Width
+            <code>width: value;</code>
+          </li>
+          <li>
+            Height
+            <code>height: value;</code>
+          </li>
+        </ul>
+        <p></p>
+      </section>
+      <section class="main-section" id="Media_Queries">
+        <header>Media Queries</header>
+        <p>CSS media queries are used to make web pages more responsive to the viewer's kind of the screen. They are used to check the size, orientation and resolution of the user device. They consist in a CSS block that is apply only if a condition is true or false.</p>
+        <p>Syntax:</p>
+        <code>
+          @media not|only mediatype and (expressions) {
+  CSS-Code;
+}
+  </code>
+  <p>Media type:</p>
+        <ul>
+          <li>All</li>
+          <li>Print</li>
+          <li>Screen</li>
+          <li>Speech</li>
+        </ul>
+        <p></p>
+      </section>
+      <section class="main-section" id="Functions">
+        <header>Functions</header>
+        <p>
+          CSS has some inbuilt functions. These are used as properties values. Few of the key functions are:
+        </p>
+        
+        <ul>
+          <li>attr()
+            <code>attr( attr_name );</code>
+          </li>
+          <li>
+            calc()
+            <code>calc( Expression );</code>
+          </li>
+          <li>
+            max()
+            <code>max(value 1, value2, value3…)</code>
+          </li>
+          <li>
+            url()
+            <code>
+              url( &lt;string&gt; &lt;url-modifier&gt;* )
+
+            </code>
+          </li>
+          <li>
+            var()
+            <code>var( custom_property, value )</code>
+          </li>
+
+        </ul>
+        <p></p>
+      </section>
+            
+            
+
+  
+
+      </main>
+  </body>
+  </html>
+
