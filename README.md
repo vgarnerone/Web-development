@@ -1,5 +1,5 @@
 # Web-development
-Collection of web pages I am building along my learning journey
+Collection of the web pages I built completing the 'Responsive Web Design' curriculum on freeCodeCamp.org
 
 1. Survey Form
 
